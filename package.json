@@ -1,0 +1,30 @@
+{
+  "name": "diplom_telegram_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pi58_boreyko/diplom_telegram_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pi58_boreyko/diplom_telegram_bot/issues"
+  },
+  "homepage": "https://gitlab.com/pi58_boreyko/diplom_telegram_bot#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "node-telegram-bot-api": "^0.53.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.2",
+    "telegram-bot-api": "^2.0.1"
+  }
+}
